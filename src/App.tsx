@@ -61,8 +61,7 @@ export default function App(){
 
       <div style={{height:12}} />
 
-      <Summary red={totals.red} green={totals.green} title={period[0].toUpperCase()+period.slice(1)} />
-
+<Summary red={totals.red} green={totals.green} title={period[0].toUpperCase()+period.slice(1)} />
       <div style={{height:12}} />
 
       <ChartPanel events={events} period={period} />
