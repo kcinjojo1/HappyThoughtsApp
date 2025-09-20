@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import CategoryCard from './components/CategoryCard'
-import PeriodSelector from './components/PeriodSelector'
+import PeriodSelector from './components/PeriodSelector.tsx'
 import Summary from './components/Summary'
 import ChartPanel from './components/ChartPanel'
 import { CategoryMeta, Period, TapEvent } from './types'
